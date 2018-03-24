@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         categories.add("C");
         categories.add("C++");
         categories.add("Python");
+        categories.add("Java");
 
 
 
@@ -150,6 +151,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             fcontent.setText("import sys\n" +
                     "arg = sys.argv;\n" +
                     "print int(arg[1])+int(arg[2])"
+            );
+        }
+        else if(String.valueOf(spinner.getSelectedItem()) == "Java") {
+            fcontent.setText("class test {\n" +
+                    "public static void main(String[] args){\n" +
+                    "System.out.println(\"Hello \"+args[0]);}\n"+
+                    "}"
             );
         }
         // Showing selected spinner item

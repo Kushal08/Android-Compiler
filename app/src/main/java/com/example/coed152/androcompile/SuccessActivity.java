@@ -111,6 +111,11 @@ public class SuccessActivity extends AppCompatActivity {
                     url = new URL("http://10.42.0.1/admin/getcode2.php");
 
                 }
+                else if(operation.equals("Java"))
+                {
+                    url = new URL("http://10.42.0.1/admin/getcode3.php");
+
+                }
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();

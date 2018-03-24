@@ -11,7 +11,9 @@
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
         android:layout_height="43dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
 
     <EditText
         android:id="@+id/ftext"
@@ -24,6 +26,7 @@
         android:lines="8"
         android:maxLines="10"
         android:minLines="6"
+        android:layout_marginLeft="10dp"
         android:scrollbars="vertical"
         android:text='' />
 
@@ -31,6 +34,7 @@
         android:id="@+id/inputs"
         android:layout_width="fill_parent"
         android:layout_height="59dp"
+        android:layout_marginLeft="10dp"
         android:hint="Enter Space seprated Inputs" />
 
     <LinearLayout
